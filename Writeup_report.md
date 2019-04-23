@@ -51,7 +51,7 @@ I decided to generate additional data because my original model was overfitting 
 
 To add more data to the the data set, I used the color shifting and random cropping techniques because using the color shifting I can effeciently create 4 different images (changing the brightness, hue, saturation and contrast individually) and do not change orientation of the images. I also use the random cropping technique to let traffic sign can appear everywhere in a image.
 
-Here is an example of an original image and an augmented image:
+Here is an example of an original image and augmented images:
 
 ![alt text](./examples/orgvsaug.jpg)
 
