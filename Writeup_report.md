@@ -158,8 +158,8 @@ For the fifth image, the model is relatively sure that this is a Go straight or 
 
 From the conv1's feature maps, I think it tried to learn about the shapes or edges of the image:
 
-![alt text](./examples/layer1.jpg)
+![alt text](./examples/layer1.JPG)
 
 For the conv2, I think it learnt something not human readable features:
 
-![alt text](./examples/layer2.jpg)
+![alt text](./examples/layer2.JPG)
