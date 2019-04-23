@@ -94,7 +94,7 @@ My final model results were:
 
 The first architecture I choose was LeNet, because it is good at recognizing digit numbers, and some of traffic signs have number on it. I thought it might work fine on classifying traffic signs.
   
-When I train it, I found the LeNet was not good enough for the traffic sign classification. I think that is because LeNet was designed for recognizing grayscale images, but the traffic signs are RGB images, therefore I tried to increase the number of filters in conv1 (from 6 to 16) and conv2 (from 16 to 24), so it can get more features from the input images, since the number of filters in conv1 and conv2 are increasing, I tried to adjust the output nurons in fully-connected layers as well. 
+When I train it, I found the LeNet was not good enough for the traffic sign classification. I think that is because LeNet was designed for recognizing grayscale images, but the traffic signs are RGB images, therefore I tried to increase the number of filters in conv1 (from 6 to 12) and conv2 (from 16 to 24), so it can get more features from the input images, since the number of filters in conv1 and conv2 are increasing, I tried to adjust the output nurons in fully-connected layers as well. 
 
 I also found out that the original model was overfitting my training set, so I decided to do data augmentation(code in `data_augmentation()` function) and add L2 regularization(code in `compute_loss()` function) and dropout(code in `Traffic_dign_classifier()` function).
   
