@@ -109,8 +109,15 @@ Finally, I got my training accuracy to 97.1%, validation set accuracy to 97.7% (
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](./examples/0.jpg) ![alt text](./examples/3.jpg) ![alt text](./examples/14.jpg) 
-![alt text](./examples/21.jpg) ![alt text](./examples/37.jpg)
+![alt text](./examples/0.jpg) 
+
+![alt text](./examples/3.jpg) 
+
+![alt text](./examples/14.jpg) 
+
+![alt text](./examples/21.jpg) 
+
+![alt text](./examples/37.jpg)
 
 The second image might be difficult to classify because it seems my model doesn't do well on recognizing the numbers.
 
