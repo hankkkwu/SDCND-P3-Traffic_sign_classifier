@@ -32,3 +32,6 @@ git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
 cd CarND-Traffic-Sign-Classifier-Project
 jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
+
+* You can find my project code in ipynb [here](https://github.com/hankkkwu/SDCND-P3-Traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb) or code in html [here](https://github.com/hankkkwu/SDCND-P3-Traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.html)
+* The writeup report in [here](https://github.com/hankkkwu/SDCND-P3-Traffic_sign_classifier/blob/master/Writeup_report.md)
